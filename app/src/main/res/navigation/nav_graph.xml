@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/HomeFragment"
+    android:id="@+id/nav_graph">
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.example.notesmasteer.fragment.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/frag_home" >
+        <action
+            android:id="@+id/action_HomeFragment_to_EditFragment"
+            app:destination="@id/EditFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_AddFragment"
+            app:destination="@id/AddFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_SettingFragment"
+            app:destination="@id/SettingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/EditFragment"
+        android:name="com.example.notesmasteer.fragment.edit.EditFragment"
+        android:label="Edit"
+        tools:layout="@layout/frag_edit" />
+    <fragment
+        android:id="@+id/AddFragment"
+        android:name="com.example.notesmasteer.fragment.add.AddFragment"
+        android:label="Add"
+        tools:layout="@layout/frag_add" />
+    <fragment
+        android:id="@+id/SettingFragment"
+        android:name="com.example.notesmasteer.fragment.setting.SettingFragment"
+        android:label="Setting"
+        tools:layout="@layout/frag_setting" />
+</navigation>

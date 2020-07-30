@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textview_size_conten">16sp</dimen>
+    <dimen name="textview_size_title">26sp</dimen>
+    <dimen name="textview_size_small_conten">13sp</dimen>
+    <dimen name="textview_size_big_title">35sp</dimen>
+    <dimen name="padding_Frag_edit">15dp</dimen>
+</resources>

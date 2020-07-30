@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icons">
+        <item>@drawable/ic_add_circle_black_24dp</item>
+<!--        <item>@drawable/ic_keyboard_voice_black_24dp</item>-->
+<!--        <item>@drawable/ic_settings_applications_black_24dp</item>-->
+<!--&lt;!&ndash;        <item>@drawable/ic_home_black_24dp</item>&ndash;&gt;-->
+<!--        <item>@drawable/ic_alarm_black_24dp</item>-->
+<!--        <item>@drawable/lock</item>-->
+    </array>
+    <array name="colors">
+        <item>@android:color/holo_blue_light</item>
+<!--        <item>@android:color/holo_green_dark</item>-->
+<!--        <item>@android:color/holo_red_light</item>-->
+<!--        <item>@android:color/holo_purple</item>-->
+<!--&lt;!&ndash;        <item>@color/brown_color_picker</item>&ndash;&gt;-->
+<!--        <item>@android:color/holo_orange_light</item>-->
+    </array>
+</resources>

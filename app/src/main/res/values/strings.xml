@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Notes Masteer</string>
+    <string name="logo">Tít Notes Master</string>
+    <string name="title">Title: </string>
+    <string name="hintNoteSample"> bạn đang nghĩ gì ? </string>
+    <string name="setting">Setting</string>
+    <string name="version">VERSION 1.0.0</string>
+    <string name="update">Check for update</string>
+    <string name="feedback">Feedback</string>
+    <string name="share">Share App</string>
+    <string name="rate">Rate App</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="saved">Save</string>
+</resources>
